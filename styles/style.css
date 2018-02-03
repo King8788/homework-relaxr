@@ -1,0 +1,55 @@
+header, section, p, body, aside, h1, h2, footer {
+  border: 3px solid darkgrey;
+  margin: 20px;
+
+}
+
+header {
+  color: white;
+  font-family: Extra bold, 24px;
+
+}
+
+/*
+h2 {
+  height: 30px;
+  float: right;
+  color: white;
+  font-family: semi bold, 24px;
+} 
+*/
+
+
+header, footer {
+  height: 150px;
+}
+
+main, aside {
+  height: 600px;
+  float: left;
+
+}
+
+main {
+  width: 63%
+}
+
+aside {
+  width: 30%
+}
+
+
+
+
+.clearfix:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+
+
