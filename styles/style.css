@@ -1,55 +1,181 @@
-header, section, p, body, aside, h1, h2, footer {
-  border: 3px solid darkgrey;
-  margin: 20px;
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clear {
+clear: both;
+}
+
+
+
+nav {
+  margin-left: auto;
+  width: 100%;
+  height: 700px;
+  line-height: 1.4;
+  font-family: Helvetica, Arial, sans-serif;
+  background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+   background-size: cover;
+
 
 }
 
-header {
+
+ nav > h1 {
   color: white;
-  font-family: Extra bold, 24px;
-
+  font-size: 30px;
+  position: absolute;
+  top: 1%;
+  left: 7%;
 }
 
-/*
 h2 {
-  height: 30px;
-  float: right;
+  height: 50px;
   color: white;
-  font-family: semi bold, 24px;
+  font-family: bold, 28px;
+  position: absolute;
+  right: 41%;
+  top: 25%;
+  font-size: 32px;
+
 } 
-*/
 
+nav > article {
+color: #033048;
+font-family: bold, 14px;
+border-radius: 5px;
+height: 20px;
+width: 10%;
+background-color: #f9e42e;
+padding: 10px 23px 10px 20px;
+text-align: center;
+position: absolute;
+right: 50%;
+top: 40%;
 
-header, footer {
-  height: 150px;
 }
 
-main, aside {
-  height: 600px;
+section {
+  height:250px;
   float: left;
+  border: 10px;
+  width: 90%;
+  background: url(../images/testimonial_bg.jpg) no-repeat center top rgb(134,141,157);
+   background-size: cover;
 
+}
+
+
+section > article {
+   font-size: 25px;
+    color: white;
+    padding: 55px 410px 40px 390px;
+    border-collapse: 30px;
+
+    
 }
 
 main {
-  width: 63%
+  height:450px;
+  float: left;
+  border: 10px;
+  width: 90%;
+  font-size: 25px;
+  background-color: #f0efef;
+  color: #033048;
+  word-spacing: 3px;
 }
+
+
 
 aside {
-  width: 30%
+  height: 90px;
+   width: 90%;
+   background-color: #f9e42e;
+
+
+}
+
+aside > article {
+  color: white;
+  font-family: bold, 12px;
+  border-radius: 5px;
+  height: 20px;
+  width: 10%;
+  background-color: #033048;
+   padding: 10px 23px 10px 20px;
+   text-align: center;
+   position: relative;
+   left: 43%;
+   top: 25px;
 }
 
 
 
 
-.clearfix:after {
-  content: '';
-  display: block;
-  clear: both;
+.alignright {
+float: right;
+padding: 0 0 15px 15px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+float: left;
+padding: 0 10px 10px 0; /* note the padding around a left floated image */
 }
 
 /******************************************
-/* ADDITIONAL STYLES
+/* BASE STYLES
 /*******************************************/
 
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+#container {
+width: 100%;
+margin: auto;
+height: 500px;
+
+}
+
+
+
+footer {
+  height: 300px;
+  background-color: black;
+  float: left;
+  border: 10px;
+  width: 90%;
+  color: #f9e42e;
+
+}
+
+footer > h3{
+  color: #f9e42e;
+  font-size: 34px;
+  font-family: bold;
+  position: relative;
+   left: 46%;
+   top: 28px;
+
+}
+
+
+footer >  a {
+ position: relative;
+ left: 47%;
+ top: 70px;
+ 
+
+}
 
 
