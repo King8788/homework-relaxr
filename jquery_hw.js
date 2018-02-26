@@ -6,15 +6,13 @@ a){var b=F.exec(a);b&&(b[1]=(b[1]||"").toLowerCase(),b[3]=b[3]&&new RegExp("(?:^
 
 
 
-function readMore(){
+function button1(){
 
-  $("#readMore").click(h2);
+  $("#button1").click('readMore');
 
- $('#readMore').append('<p>').append('Read Less');
+ $('#readMore').append('p').append('Read Less');
   
-$('#readMore').slideDown('<p>').slideDown('Read Less');
-  
-  $('#readMore').show('<p>').show('Read Less');
+  $('#readMore').show('.readLess').slideDown();
 
 $('readMore').hide()
 
